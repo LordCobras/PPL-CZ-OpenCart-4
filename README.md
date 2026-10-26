@@ -1,29 +1,30 @@
-# PPL CZ for OpenCart 4
+# PPL CZ for OpenCart 4.1.x (unofficial modifications)
 
-Public repository for work on a PPL CZ shipping integration for OpenCart 4.1.x.
+Community-maintained work on adapting the PPL CZ shipping integration for OpenCart 4.1.x and PHP 8.3, including compatibility work involving CatCode One Page Checkout.
 
-## Status
+> **Status:** documentation only; no distributable plugin has been published here. Compatibility and behavior have not been independently verified.
 
-**Preparing for publication — not yet released.** The installation package and third-party source code have not been published here pending verification of redistribution rights, applicable licenses, and a review for credentials. The original package references Jan Pokora as an author and version 1.0.1; this repository does not claim authorship of that original code.
+## Original project and attribution
 
-## Compatibility targets
+The original project is [PPL-CZ/PPL-OpenCart](https://github.com/PPL-CZ/PPL-OpenCart), published by the PPL-CZ GitHub organization. The provided installation archive identifies Jan Pokora as its author and version 1.0.1. Credit and copyright ownership remain with their respective holders. This repository is an **unofficial** adaptation and is **not affiliated with or endorsed by PPL-CZ**.
 
-- OpenCart 4.1.x
+The upstream repository currently does not declare a GitHub-recognized license. Public access to source code is not, by itself, permission to redistribute or modify it. Accordingly, the upstream source and modified installation package are not published here pending confirmation of the applicable permissions and dependency licenses.
+
+## Planned compatibility targets
+
+- OpenCart 4.1.x (testing target: 4.1.0.4)
 - PHP 8.3
 - PPL CZ shipping
-- CatCode One Page Checkout integration needs independent testing.
+- CatCode One Page Checkout (integration requires testing)
 
 ## Installation
 
-No downloadable installation package is currently published in this repository. Do not install until a reviewed release has been added and tested in a staging store.
+No installable download is currently available in this repository. The modified extension should be reviewed for credentials and tested on a staging shop before any public release.
 
-## Next steps
+## Publication checklist
 
-1. Review authorship, licensing and permission to redistribute original code and dependencies.
-2. Scan any proposed release for secrets or production configuration.
-3. Validate OpenCart installation structure and checkout behavior in a test store.
-4. Publish source and a versioned installation ZIP only after the checks pass.
+See [PUBLISHING_CHECKLIST.md](PUBLISHING_CHECKLIST.md).
 
 ## Support
 
-Use GitHub Issues to report problems, specifying OpenCart version, PHP version, theme, checkout extension and relevant sanitized logs.
+Report issues with OpenCart, PHP, theme, checkout-extension versions and sanitized logs. Do not publish API keys, credentials or personal information.
