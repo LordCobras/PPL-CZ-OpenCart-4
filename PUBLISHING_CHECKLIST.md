@@ -1,9 +1,18 @@
 # Publication checklist
 
-- [ ] Confirm the right to redistribute the original extension. `install.json` identifies Jan Pokora as author.
-- [ ] Review licenses for all bundled dependencies.
-- [ ] Review source and distributable ZIP for credentials, personal data and secrets.
-- [ ] Test installation and checkout on a staging OpenCart 4.1.0.4 / PHP 8.3 store.
-- [ ] Verify CatCode One Page Checkout integration.
-- [ ] Verify version against `install.json` (currently `1.0.1`).
-- [ ] Publish a properly versioned release with a verified installable ZIP only after these checks.
+## Upstream attribution and permissions
+
+- [x] Identify upstream: [PPL-CZ/PPL-OpenCart](https://github.com/PPL-CZ/PPL-OpenCart).
+- [x] Credit original project and identify this adaptation as unofficial.
+- [ ] Obtain or locate explicit permission/license permitting modification and redistribution; upstream currently has no GitHub-recognized license.
+- [ ] Verify that bundled dependencies permit redistribution, retaining required notices.
+
+## Release readiness
+
+- [ ] Scan all extension files and ZIP archives for API keys, credentials, secrets, personal data and production settings.
+- [ ] Test installation and shipping selection on OpenCart 4.1.0.4 / PHP 8.3 in a staging store.
+- [ ] Verify CatCode One Page Checkout integration and COD behavior for pickup points versus home delivery.
+- [ ] Verify the actual modified extension version rather than adopting upstream 1.0.1 uncritically.
+- [ ] Publish a verified installable ZIP only after permission and technical checks.
+
+**Do not add an MIT license or redistribute upstream code until permission is established.**
